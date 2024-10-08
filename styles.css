@@ -37,7 +37,7 @@
 	border-radius:0px 0px 20px 20px;
 	
 }
-ul {
+.photo-album ul {
     list-style: none; /* Removes default bullet points */
     padding: 0;
     text-align: center;
@@ -46,12 +46,12 @@ ul {
 	
 }
 
-ul li {
+.photo-album ul li {
     display:inline-block;
 	margin-bottom: 10px; /* Adds space between list items */
 }
 
-ul li img {
+.photo-album ul li img {
     width: 40px; /* Adjust image width */
     height: auto; /* Maintain aspect ratio */
 	border: 2px inset palegreen;
@@ -102,21 +102,22 @@ span {
 	left:25%;
 	font-size:15px
 }
-ol {
+.variant ul {
     list-style: none; /* Removes default bullet points */
     padding: 0;
     text-align: center;
 	position:relative;
 	left:-19%;
 	
+	
 }
 
-ol li {
+.variant ul li {
     display:inline-block;
 	margin-bottom: 10px; /* Adds space between list items */
 }
 
-ol li img {
+.variant ul li img {
     width: 40px; /* Adjust image width */
     height: auto; /* Maintain aspect ratio */
 	border: 2px inset palegreen;
@@ -133,6 +134,7 @@ ol li img {
 	background-color:palevioletred;
 	color:white;
 	position:relative;
+	font-size:12px;
 	left:100px;
 	border-radius:7px;
 }
