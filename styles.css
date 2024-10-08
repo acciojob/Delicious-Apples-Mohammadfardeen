@@ -1,1 +1,139 @@
-/* your code here */
+.product {
+	background-color:lightgreen;
+	width:200vw;
+	height:100vw;
+	display:flex;
+	flex-direction:row;
+}
+
+.photo-container {
+	background-color:palegreen;
+	height:270px;
+	width:200px;
+	position:relative;
+	top:10%;
+	left:40%;
+	padding:3mm;
+	border-radius:20px 20px 0px 0px;
+    display:flex;
+	flex-direction:column;
+	
+}
+.photo-main img {
+	width:250px;
+	position:relative;
+	left:-30%;
+	bottom:5%;
+	
+	
+}
+.photo-album {
+	background-color:white;
+	height:50px;
+	width:200px;
+	padding:3mm;
+	position:relative;
+	left:-5.7%;
+	border-radius:0px 0px 20px 20px;
+	
+}
+ul {
+    list-style: none; /* Removes default bullet points */
+    padding: 0;
+    text-align: center;
+	position:relative;
+	top:-20%;
+	
+}
+
+ul li {
+    display:inline-block;
+	margin-bottom: 10px; /* Adds space between list items */
+}
+
+ul li img {
+    width: 40px; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+	border: 2px inset palegreen;
+	
+}
+.product__info {
+	background-color:white;
+	height:450px;
+	width:300px;
+	display:flex;
+	flex-direction: column;
+	border:20px solid lightgreen;
+	
+}
+.title {
+	
+	width:200px;
+	position:relative;
+	top:13%;
+	left:25%;
+	padding:0px
+	
+}
+span {
+	font-size:10px;
+	position:absolute;
+	top:70%
+}
+.price {
+	
+	height: 100px;
+	position:relative;
+	top:14%;
+	left:25%;
+	color:red;
+	
+}
+#re {
+	font-size:50px;
+	position:relative;
+	top:10%;
+	left:5%;
+	
+}
+.variant {
+	position:relative;
+	top:5%;
+	left:25%;
+	font-size:15px
+}
+ol {
+    list-style: none; /* Removes default bullet points */
+    padding: 0;
+    text-align: center;
+	position:relative;
+	left:-19%;
+	
+}
+
+ol li {
+    display:inline-block;
+	margin-bottom: 10px; /* Adds space between list items */
+}
+
+ol li img {
+    width: 40px; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+	border: 2px inset palegreen;
+}
+.description {
+	width:200px;
+	position:relative;
+	left:25%;
+	font-size:15px;
+}
+#yes {
+	width:100px;
+	height:35px;
+	background-color:palevioletred;
+	color:white;
+	position:relative;
+	left:100px;
+	border-radius:7px;
+}
+	
